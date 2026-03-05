@@ -1,6 +1,6 @@
-using Scrubbler.Abstractions;
-using Scrubbler.Abstractions.Plugin;
-using Scrubbler.Abstractions.Services;
+using Scrubbler.PluginBase;
+using Scrubbler.PluginBase.Plugin;
+using Scrubbler.PluginBase.Services;
 using Shoegaze.LastFM;
 
 namespace Scrubbler.Plugin.Scrobblers.FriendScrobbler;
@@ -9,7 +9,7 @@ namespace Scrubbler.Plugin.Scrobblers.FriendScrobbler;
     Name = "Friend Scrobbler",
     Description = "Scrobble tracks from another last.fm user",
     SupportedPlatforms = PlatformSupport.All)]
-public class FriendScrobblePlugin : Abstractions.Plugin.PluginBase, IScrobblePlugin
+public class FriendScrobblePlugin : PluginBase.Plugin.PluginBase, IScrobblePlugin
 {
     #region Properties
 

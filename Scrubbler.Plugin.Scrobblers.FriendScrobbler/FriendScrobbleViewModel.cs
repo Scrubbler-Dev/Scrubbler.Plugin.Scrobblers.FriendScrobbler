@@ -1,8 +1,8 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Scrubbler.Abstractions;
 using Scrubbler.Abstractions.Plugin;
+using Scrubbler.PluginBase;
 using Shoegaze.LastFM;
 
 namespace Scrubbler.Plugin.Scrobblers.FriendScrobbler;
